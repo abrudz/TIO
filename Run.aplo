@@ -4,7 +4,7 @@
      ⍺←'' ⍝ Input
      (z n)←⎕UCS 0 10
 
-     Norm←1↓∘∊n,¨⊆
+     Norm←1↓∘∊n,∘⍕¨⊆
      File←{'F.',⍺,'.tio',z,(⍕≢Ucs ⍵),z,⍵}∘Norm
      Ucs←{11::⎕UCS ⍵ ⋄ 'UTF-8'⎕UCS ⍵}
      Var←{'V',⍺,z,(⍕≢⍵),z,∊⍵,¨z}∘⊆
