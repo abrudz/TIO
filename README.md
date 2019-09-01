@@ -7,3 +7,13 @@
        'John Doe'('python3'Run)'print("Hello, "+input())'
 Hello, John Doe
 ```
+
+Available languages:
+
+```apl
+      'bash'Run'ls /srv/wrappers'
+05ab1e
+1l-a
+1l-aoi
+⋮
+```
